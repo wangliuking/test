@@ -1,11 +1,7 @@
 package xh.mybatis.mapper;
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import xh.mybatis.bean.BsstationBean;
-import xh.mybatis.bean.ChartBean;
 
 public interface RadioUserMapper {
 	/**

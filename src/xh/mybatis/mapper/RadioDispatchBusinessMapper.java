@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import xh.mybatis.bean.RadioUserBusiness_E;
+import xh.mybatis.bean.RadioDispatchBusiness;
 
 public interface RadioDispatchBusinessMapper {
 	/**
@@ -23,13 +23,13 @@ public interface RadioDispatchBusinessMapper {
 	
     int deleteByPrimaryKey(Integer id);
 
-    int insert(RadioUserBusiness_E record);
+    int insert(RadioDispatchBusiness record);
 
-    int insertSelective(RadioUserBusiness_E record);
+    int insertSelective(RadioDispatchBusiness record);
 
-    RadioUserBusiness_E selectByPrimaryKey(Integer id);
+    RadioDispatchBusiness selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(RadioUserBusiness_E record);
+    int updateByPrimaryKeySelective(RadioDispatchBusiness record);
 
-    int updateByPrimaryKey(RadioUserBusiness_E record);
+    int updateByPrimaryKey(RadioDispatchBusiness record);
 }
